@@ -1,0 +1,86 @@
+body{
+	background-color: white;
+	margin: 0;
+	font-family: "Avenir";
+}
+
+.square{
+	width: 30%;
+	background: #f44262;
+  max-height: 30px;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 5%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+  text-align: center;
+  line-height: 3em;
+  color: white;
+}
+
+#container{
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 0.5;
+	padding: 45px 0;
+  font-size: 100px;
+  font-weight: 450;
+}
+
+#stripe{
+	background: #232323;
+	height: 40px;
+	text-align: center;
+}
+
+.step{
+  font-size: 200%;
+  font-family: "Avenir";
+  padding-bottom: 10px;
+}
+
+
+#display{
+	font-size: 200%;
+}
+
+.br{
+  font-size: 130%;
+}
+
+.form{
+  float: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-size: 165%;
+  color: steelblue;
+}
+
+input[type=text]{
+  margin-top: 30px;
+  height: 115%;
+  font-size: 105%;
+  color: steelblue;
+}
+::placeholder {
+    color: steelblue;
+}
+
+.sub{
+  font-size: 105%;
+  width: 25%;
+  font-weight: light;
+  color: white;
+  background-color: steelblue;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diro Text</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="akshay.css">
+</head>
+<body>
+
+	<h1>
+		<br> <span id="display">Diro Text</span>
+		<br>
+	</h1>
+
+	<div id="stripe">
+	</div>
+
+	<div id="container">
+		<div class="square">
+      <span class="step">STEP 1</span>
+      <div class="br">
+        <br> Verify your phone number with the team<br>
+      </div>
+    </div>
+		<div class="square">
+      <span class="step">STEP 2</span>
+      <div class="br">
+          <br> Send a text to <br>+1 (831) 609-9948 <br>
+      </div>
+     </div>
+		<div class="square">
+      <span class="step">STEP 3</span>
+      <div class="br">
+          <br> Follow the specified directions <br>
+      </div>
+     </div>
+     <div class="form">
+       <form id='contactForm' action="validate_new_user.py" method="get">
+     Enter Phone Number: <input id="textbox" name="phonenum" type="text" placeholder="1##########" required>
+     <button class="sub">Submit</button>
+     </form>
+     </div>
+	</div>
+<script type="text/javascript" src="akshay.js"></script>
+
+</body>
+</html>
